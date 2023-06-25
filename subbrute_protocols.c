@@ -1,3 +1,6 @@
+
+
+
 #include "subbrute_protocols.h"
 #include "math.h"
 #include <string.h>
@@ -362,7 +365,7 @@ const SubBruteProtocol subbrute_protocol_holtek_12bit_433 = {
 const SubBruteProtocol subbrute_protocol_holtek_12bit_am_433 = {
     .frequency = 433920000,
     .bits = 12,
-    .te = 433,
+    .te = 364,
     .repeat = 3,
     .preset = FuriHalSubGhzPresetOok650Async,
     .file = HoltekFileProtocol};
